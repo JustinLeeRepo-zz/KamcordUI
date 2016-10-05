@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "510A6FA8C02C2533B5A523003A9A709835E3A447",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "510A6FA8C02C2533B5A523003A9A709835E3A447" : 0,
+    "93EB139F0E4687B1147A041D970E667CB4432A67" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB078C25-8977-4151-8EE2-75C1C6595B34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "510A6FA8C02C2533B5A523003A9A709835E3A447" : "iOS-UIKit-Question\/",
+    "93EB139F0E4687B1147A041D970E667CB4432A67" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UIInterview",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UIInterview\/UIInterview.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kamcord\/iOS-UIKit-Question.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "510A6FA8C02C2533B5A523003A9A709835E3A447"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kamcord\/iOS-Interview-Questions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "93EB139F0E4687B1147A041D970E667CB4432A67"
+    }
+  ]
+}

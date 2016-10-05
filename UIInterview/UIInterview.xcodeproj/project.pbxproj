@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225AD6831BF6689F001BED06 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225AD6821BF6689F001BED06 /* PlayerViewController.m */; };
+		225AD6851BF668C2001BED06 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225AD6841BF668C2001BED06 /* PlayerViewController.xib */; };
+		22F9EF7D1C1F89F800ED8A42 /* PIP_View.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F9EF7B1C1F89F800ED8A42 /* PIP_View.png */; };
+		22F9EF7E1C1F89F800ED8A42 /* Player_View.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F9EF7C1C1F89F800ED8A42 /* Player_View.png */; };
+		22FB6A7A1BEBE7AD00B7ED46 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB6A791BEBE7AD00B7ED46 /* Utility.m */; };
+		22FDCBC01BC72FFE00F30E86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDCBBF1BC72FFE00F30E86 /* main.m */; };
+		22FDCBC31BC72FFE00F30E86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDCBC21BC72FFE00F30E86 /* AppDelegate.m */; };
+		22FDCBC61BC72FFE00F30E86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDCBC51BC72FFE00F30E86 /* ViewController.m */; };
+		22FDCBC91BC72FFE00F30E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FDCBC71BC72FFE00F30E86 /* Main.storyboard */; };
+		22FDCBCB1BC72FFE00F30E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FDCBCA1BC72FFE00F30E86 /* Assets.xcassets */; };
+		22FDCBCE1BC72FFE00F30E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FDCBCC1BC72FFE00F30E86 /* LaunchScreen.storyboard */; };
+		22FDCBDB1BC731F000F30E86 /* UIView+Kamcord_Reuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDCBD81BC731F000F30E86 /* UIView+Kamcord_Reuse.m */; };
+		22FDCBDC1BC731F000F30E86 /* UIViewController+Kamcord_Storyboards.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDCBDA1BC731F000F30E86 /* UIViewController+Kamcord_Storyboards.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		225AD6811BF6689F001BED06 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerViewController.h; path = "View Controller/PlayerViewController.h"; sourceTree = "<group>"; };
+		225AD6821BF6689F001BED06 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerViewController.m; path = "View Controller/PlayerViewController.m"; sourceTree = "<group>"; };
+		225AD6841BF668C2001BED06 /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlayerViewController.xib; path = "View Controller/PlayerViewController.xib"; sourceTree = "<group>"; };
+		22F9EF7B1C1F89F800ED8A42 /* PIP_View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PIP_View.png; path = Resources/PIP_View.png; sourceTree = "<group>"; };
+		22F9EF7C1C1F89F800ED8A42 /* Player_View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player_View.png; path = Resources/Player_View.png; sourceTree = "<group>"; };
+		22FB6A781BEBE7AD00B7ED46 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = Utility/Utility.h; sourceTree = "<group>"; };
+		22FB6A791BEBE7AD00B7ED46 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utility.m; path = Utility/Utility.m; sourceTree = "<group>"; };
+		22FDCBBB1BC72FFE00F30E86 /* UIInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FDCBBF1BC72FFE00F30E86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FDCBC11BC72FFE00F30E86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22FDCBC21BC72FFE00F30E86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22FDCBC41BC72FFE00F30E86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22FDCBC51BC72FFE00F30E86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22FDCBC81BC72FFE00F30E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FDCBCA1BC72FFE00F30E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FDCBCD1BC72FFE00F30E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FDCBCF1BC72FFE00F30E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FDCBD61BC731F000F30E86 /* Kamcord_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Kamcord_Extensions.h; path = Extensions/Kamcord_Extensions.h; sourceTree = "<group>"; };
+		22FDCBD71BC731F000F30E86 /* UIView+Kamcord_Reuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Kamcord_Reuse.h"; path = "Extensions/UIView+Kamcord_Reuse.h"; sourceTree = "<group>"; };
+		22FDCBD81BC731F000F30E86 /* UIView+Kamcord_Reuse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Kamcord_Reuse.m"; path = "Extensions/UIView+Kamcord_Reuse.m"; sourceTree = "<group>"; };
+		22FDCBD91BC731F000F30E86 /* UIViewController+Kamcord_Storyboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Kamcord_Storyboards.h"; path = "Extensions/UIViewController+Kamcord_Storyboards.h"; sourceTree = "<group>"; };
+		22FDCBDA1BC731F000F30E86 /* UIViewController+Kamcord_Storyboards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Kamcord_Storyboards.m"; path = "Extensions/UIViewController+Kamcord_Storyboards.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FDCBB81BC72FFE00F30E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		225AD6801BF66878001BED06 /* Player View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				225AD6811BF6689F001BED06 /* PlayerViewController.h */,
+				225AD6821BF6689F001BED06 /* PlayerViewController.m */,
+				225AD6841BF668C2001BED06 /* PlayerViewController.xib */,
+			);
+			name = "Player View Controller";
+			sourceTree = "<group>";
+		};
+		22FB6A771BEBE79200B7ED46 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				22FB6A781BEBE7AD00B7ED46 /* Utility.h */,
+				22FB6A791BEBE7AD00B7ED46 /* Utility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		22FB6A7B1BEC07D700B7ED46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22F9EF7B1C1F89F800ED8A42 /* PIP_View.png */,
+				22F9EF7C1C1F89F800ED8A42 /* Player_View.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		22FDCBB21BC72FFE00F30E86 = {
+			isa = PBXGroup;
+			children = (
+				22FDCBBD1BC72FFE00F30E86 /* UIInterview */,
+				22FDCBBC1BC72FFE00F30E86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FDCBBC1BC72FFE00F30E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FDCBBB1BC72FFE00F30E86 /* UIInterview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FDCBBD1BC72FFE00F30E86 /* UIInterview */ = {
+			isa = PBXGroup;
+			children = (
+				22FB6A7B1BEC07D700B7ED46 /* Resources */,
+				22FDCBE81BC737D500F30E86 /* View Controller */,
+				225AD6801BF66878001BED06 /* Player View Controller */,
+				22FDCBD51BC7319400F30E86 /* Extensions */,
+				22FB6A771BEBE79200B7ED46 /* Utility */,
+				22FDCBE51BC7379700F30E86 /* App Delegate */,
+				22FDCBE61BC737A500F30E86 /* Storyboards */,
+				22FDCBCA1BC72FFE00F30E86 /* Assets.xcassets */,
+				22FDCBBE1BC72FFE00F30E86 /* Supporting Files */,
+			);
+			path = UIInterview;
+			sourceTree = "<group>";
+		};
+		22FDCBBE1BC72FFE00F30E86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FDCBCF1BC72FFE00F30E86 /* Info.plist */,
+				22FDCBBF1BC72FFE00F30E86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22FDCBD51BC7319400F30E86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22FDCBD61BC731F000F30E86 /* Kamcord_Extensions.h */,
+				22FDCBD71BC731F000F30E86 /* UIView+Kamcord_Reuse.h */,
+				22FDCBD81BC731F000F30E86 /* UIView+Kamcord_Reuse.m */,
+				22FDCBD91BC731F000F30E86 /* UIViewController+Kamcord_Storyboards.h */,
+				22FDCBDA1BC731F000F30E86 /* UIViewController+Kamcord_Storyboards.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		22FDCBE51BC7379700F30E86 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				22FDCBC11BC72FFE00F30E86 /* AppDelegate.h */,
+				22FDCBC21BC72FFE00F30E86 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		22FDCBE61BC737A500F30E86 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				22FDCBC71BC72FFE00F30E86 /* Main.storyboard */,
+				22FDCBCC1BC72FFE00F30E86 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		22FDCBE81BC737D500F30E86 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22FDCBC41BC72FFE00F30E86 /* ViewController.h */,
+				22FDCBC51BC72FFE00F30E86 /* ViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FDCBBA1BC72FFE00F30E86 /* UIInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FDCBD21BC72FFE00F30E86 /* Build configuration list for PBXNativeTarget "UIInterview" */;
+			buildPhases = (
+				22FDCBB71BC72FFE00F30E86 /* Sources */,
+				22FDCBB81BC72FFE00F30E86 /* Frameworks */,
+				22FDCBB91BC72FFE00F30E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIInterview;
+			productName = UIInterview;
+			productReference = 22FDCBBB1BC72FFE00F30E86 /* UIInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FDCBB31BC72FFE00F30E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Kamcord;
+				TargetAttributes = {
+					22FDCBBA1BC72FFE00F30E86 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = C52CYTJ47J;
+					};
+				};
+			};
+			buildConfigurationList = 22FDCBB61BC72FFE00F30E86 /* Build configuration list for PBXProject "UIInterview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FDCBB21BC72FFE00F30E86;
+			productRefGroup = 22FDCBBC1BC72FFE00F30E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FDCBBA1BC72FFE00F30E86 /* UIInterview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FDCBB91BC72FFE00F30E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F9EF7D1C1F89F800ED8A42 /* PIP_View.png in Resources */,
+				22F9EF7E1C1F89F800ED8A42 /* Player_View.png in Resources */,
+				225AD6851BF668C2001BED06 /* PlayerViewController.xib in Resources */,
+				22FDCBCE1BC72FFE00F30E86 /* LaunchScreen.storyboard in Resources */,
+				22FDCBCB1BC72FFE00F30E86 /* Assets.xcassets in Resources */,
+				22FDCBC91BC72FFE00F30E86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FDCBB71BC72FFE00F30E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225AD6831BF6689F001BED06 /* PlayerViewController.m in Sources */,
+				22FDCBC61BC72FFE00F30E86 /* ViewController.m in Sources */,
+				22FDCBDB1BC731F000F30E86 /* UIView+Kamcord_Reuse.m in Sources */,
+				22FDCBC31BC72FFE00F30E86 /* AppDelegate.m in Sources */,
+				22FDCBC01BC72FFE00F30E86 /* main.m in Sources */,
+				22FB6A7A1BEBE7AD00B7ED46 /* Utility.m in Sources */,
+				22FDCBDC1BC731F000F30E86 /* UIViewController+Kamcord_Storyboards.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22FDCBC71BC72FFE00F30E86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FDCBC81BC72FFE00F30E86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FDCBCC1BC72FFE00F30E86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FDCBCD1BC72FFE00F30E86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FDCBD01BC72FFE00F30E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22FDCBD11BC72FFE00F30E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FDCBD31BC72FFE00F30E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UIInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kamcord.UIInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22FDCBD41BC72FFE00F30E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = UIInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kamcord.UIInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FDCBB61BC72FFE00F30E86 /* Build configuration list for PBXProject "UIInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FDCBD01BC72FFE00F30E86 /* Debug */,
+				22FDCBD11BC72FFE00F30E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FDCBD21BC72FFE00F30E86 /* Build configuration list for PBXNativeTarget "UIInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FDCBD31BC72FFE00F30E86 /* Debug */,
+				22FDCBD41BC72FFE00F30E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FDCBB31BC72FFE00F30E86 /* Project object */;
+}
